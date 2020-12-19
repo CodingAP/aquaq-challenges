@@ -28,6 +28,7 @@ let fetchMarkdown = async challenge => {
     const root = htmlParser.parse(html);
     let markdown = htmlToMarkdown.turndown(root.querySelector('.bd-container-body').innerHTML);
     markdown = markdown.split('\n');
+    markdown.unshift(`# Challenge ${challenge}`);
     markdown = markdown.slice(0, markdown.length - 1).join('\n');
 
     let dir = `./challenges/challenge${challenge}`;
