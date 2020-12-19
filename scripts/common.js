@@ -61,8 +61,8 @@ let common = {
         if (a == null || b == null) return false;
         if (a.length !== b.length) return false;
 
-        let sortedA = JSON.parse(JSON.stringify(a)).sort();
-        let sortedB = JSON.parse(JSON.stringify(b)).sort();
+        let sortedA = common.copy(a).sort();
+        let sortedB = common.copy(b).sort();
 
         for (var i = 0; i < a.length; ++i) {
             if ((matchOrder ? a : sortedA)[i] !== (matchOrder ? b : sortedB)[i]) return false;
@@ -80,6 +80,14 @@ let common = {
         keys.forEach(value => {
             obj[value] = callback(value, obj[value]);
         });
+    },
+    factor: number => [...Array(number + 1).keys()].filter(i => number % i === 0),
+    gcd: (num1, num2) => {
+        while (num1 != 0 && num2 != 0) {
+            if (num1 > num2) num1 %= num2;
+            else num2 %= num1;
+        }
+        return Math.max(num1, num2);
     }
 }
 
