@@ -1,4 +1,5 @@
 Some people might remember T9 phone inputs, in which the numbers 2 to 9 have associated letters, and 0 acts as a space. Key 2 has "abc", 3 has "def" etc:  
+	
 
   
   1   2   3  
@@ -11,7 +12,7 @@ Some people might remember T9 phone inputs, in which the numbers 2 to 9 have ass
 pqrs tuv wxyz  
        
       0  
-      _  
+      \_  
 
   
 Note that 0 is a space, not an underscore!  

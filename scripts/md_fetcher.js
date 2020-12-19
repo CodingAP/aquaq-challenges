@@ -19,6 +19,16 @@ for (let i = 0; i < commandArgs.length; i++) {
     }
 }
 
+htmlToMarkdown.addRule('code', {
+    filter: ['div'],
+    replacement: (content, node, options) => {
+        if (node.className.split(' ').includes('bd-container-body-mono')) {
+            return `\t${content}`;
+        }
+        return content;
+    }
+})
+
 let fetchMarkdown = async challenge => {
     const response = await fetch(
         `https://challenges.aquaq.co.uk/challenge/${challenge}`, { headers: { cookie: `session=${process.env.SESSION_ID}` } }
@@ -35,6 +45,10 @@ let fetchMarkdown = async challenge => {
     fs.writeFile(dir + '/README.md', markdown, (err) => {
         if (err) throw err;
         console.log(`Saved the README of challenge ${challenge}!`);
+    });
+
+    fs.writeFile(dir + '/index.html', html, (err) => {
+        if (err) throw err;
     });
 }
 
