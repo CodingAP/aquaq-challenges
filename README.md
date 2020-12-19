@@ -29,7 +29,7 @@ These are my solutions to the [AquaQ Challenges](https://challenges.aquaq.co.uk/
 | [Challenge 22](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge22)| 43103✔ (1.336 ms) |
 | [Challenge 23](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge23)| Not finished❌ |
 | [Challenge 24](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge24)| Not finished❌ |
-| [Challenge 25](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge25)| Not finished❌ |
+| [Challenge 25](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge25)| paris✔ (7.635 ms) |
 | [Challenge 26](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge26)| Not finished❌ |
 | [Challenge 27](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge27)| Not finished❌ |
 | [Challenge 28](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge28)| Not finished❌ |
