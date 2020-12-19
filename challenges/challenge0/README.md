@@ -11,8 +11,8 @@ Some people might remember T9 phone inputs, in which the numbers 2 to 9 have ass
 	  7   8   9
 	pqrs tuv wxyz
 		
-		  0
-		  _
+	    0
+	    _
 
   
 
