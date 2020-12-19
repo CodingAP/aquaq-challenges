@@ -23,18 +23,20 @@ htmlToMarkdown.addRule('code', {
     filter: ['div'],
     replacement: (content, node, options) => {
         if (node.className.split(' ').includes('bd-container-body-mono')) {
-            return `\t${content}`;
+            '\n\n    ' +
+            content.replace(/\n/g, '\n    ') +
+            '\n\n'
         }
         return content;
     }
 })
 
 let fetchMarkdown = async challenge => {
-    const response = await fetch(
-        `https://challenges.aquaq.co.uk/challenge/${challenge}`, { headers: { cookie: `session=${process.env.SESSION_ID}` } }
-    );
+    // const response = await fetch(
+    //     `https://challenges.aquaq.co.uk/challenge/${challenge}`, { headers: { cookie: `session=${process.env.SESSION_ID}` } }
+    // );
 
-    const html = await response.text();
+    const html = await fs.readFileSync('./challenges/challenge0/index.html');
     const root = htmlParser.parse(html);
     let markdown = htmlToMarkdown.turndown(root.querySelector('.bd-container-body').innerHTML);
     markdown = markdown.split('\n');
