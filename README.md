@@ -6,7 +6,7 @@ These are my solutions to the [AquaQ Challenges](https://challenges.aquaq.co.uk/
 |---|:---:|
 | [Challenge 0](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge0)| oh so they have internet on computers now✔ (0.156 ms) |
 | [Challenge 1](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge1)| d0000d✔ (0.136 ms) |
-| [Challenge 2](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge2)| Not finished❌ |
+| [Challenge 2](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge2)| 321✔ (2.247 ms) |
 | [Challenge 3](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge3)| Not finished❌ |
 | [Challenge 4](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge4)| Not finished❌ |
 | [Challenge 5](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge5)| Not finished❌ |
