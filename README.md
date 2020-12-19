@@ -36,6 +36,6 @@ These are my solutions to the [AquaQ Challenges](https://challenges.aquaq.co.uk/
 | [Challenge 29](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge29)| Not finished❌ |
 | [Challenge 30](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge30)| Not finished❌ |
 | [Challenge 31](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge31)| Not finished❌ |
-| [Challenge 32](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge32)| Not finished❌ |
+| [Challenge 32](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge32)| 616✔ (72.352 ms) |
 | [Challenge 33](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge33)| Not finished❌ |
 | [Challenge 34](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge34)| Not finished❌ |
