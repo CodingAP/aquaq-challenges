@@ -38,13 +38,13 @@ The position of each component of each letter pair is then found in the grid, an
 For example, if the input text was the word "flawless", this becomes "fl aw le sx sx", which is encoded in the following way:  
 
 	
-	"fl" -&gt; "pa"
+	"fl" ->; "pa"
 	//on the same row, so the letter to the right
-	"aw" -&gt; "ba"
+	"aw" ->; "ba"
 	//on the same column, so the letter below
-	"le" -&gt; "pg"
+	"le" ->; "pg"
 	//opposite corners of the square from "l" to "e" in the code square
-	"sx" -&gt; "xy" (x2)
+	"sx" ->; "xy" (x2)
 	
 
   
