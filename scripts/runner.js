@@ -1,4 +1,5 @@
 const fs = require('fs');
+const common = require('./common');
 
 let challenge = -1;
 
@@ -18,7 +19,7 @@ for (let i = 0; i < commandArgs.length; i++) {
 let runChallenge = challenge => {
     if (fs.existsSync(`./challenges/challenge${challenge}`)) {
         let before = process.hrtime();
-        let result = require(`../challenges/challenge${challenge}/challenge.js`)();
+        let result = require(`../challenges/challenge${challenge}/challenge.js`)(common.readInput(challenge));
         let time = process.hrtime(before)[1] / 1000000;
     
         return { result, time };

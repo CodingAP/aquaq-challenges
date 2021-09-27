@@ -88,6 +88,12 @@ let common = {
             else num2 %= num1;
         }
         return Math.max(num1, num2);
+    },
+    readInput: challenge => {
+        return require('fs').readFileSync(`./challenges/challenge${challenge}/input.txt`).toString().trim().replace(/\r/g, '');
+    },
+    readFile: path => {
+        return require('fs').readFileSync(path).toString().replace(/\r/g, '');
     }
 }
 
