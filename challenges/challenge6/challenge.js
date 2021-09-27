@@ -1,7 +1,4 @@
-const input = require('fs').readFileSync('./challenges/challenge6/input.txt').toString().trim();
-const common = require('../../scripts/common');
-
-module.exports = () => {
+module.exports = input => {
     let number = parseInt(input.split(' ')[5]);
     let sum = 0;
 

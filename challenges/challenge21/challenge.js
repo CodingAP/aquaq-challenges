@@ -1,7 +1,6 @@
-const input = require('fs').readFileSync('./challenges/challenge21/input.txt').toString().trim();
 const common = require('../../scripts/common');
 
-module.exports = () => {
+module.exports = input => {
     let sum = 0;
     let size = 3;
     let x = null;

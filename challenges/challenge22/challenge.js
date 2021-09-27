@@ -1,7 +1,4 @@
-const input = require('fs').readFileSync('./challenges/challenge22/input.txt').toString().trim();
-const common = require('../../scripts/common');
-
-module.exports = () => {
+module.exports = input => {
     let conversions = {
         1: 'I',
         4: 'IV',

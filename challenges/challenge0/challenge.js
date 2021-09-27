@@ -1,7 +1,4 @@
-const input = require('fs').readFileSync('./challenges/challenge0/input.txt').toString().trim();
-const common = require('../../scripts/common');
-
-module.exports = () => {
+module.exports = input => {
     let numpad = [' ', '', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz'];
     let string = '';
 

@@ -1,7 +1,4 @@
-const input = require('fs').readFileSync('./challenges/challenge32/input.txt').toString().trim();
-const common = require('../../scripts/common');
-
-module.exports = () => {
+module.exports = input => {
     let strings = input.split('\n');
     let sum = 0;
     let matches = ['()', '[]', '{}'];

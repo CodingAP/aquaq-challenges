@@ -1,7 +1,4 @@
-const input = require('fs').readFileSync('./challenges/challenge25/input.txt').toString().trim();
-const common = require('../../scripts/common');
-
-module.exports = () => {
+module.exports = input => {
     let timeToMills = time => {
         let timeSplit = time.split(/[:.]/g);
         let mills = parseInt(timeSplit[3]);

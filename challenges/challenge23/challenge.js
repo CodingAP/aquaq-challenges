@@ -1,7 +1,4 @@
-const input = require('fs').readFileSync('./challenges/challenge23/input.txt').toString().trim();
-const common = require('../../scripts/common');
-
-module.exports = () => {
+module.exports = input => {
     let createKey = phrase => {
         phrase = phrase.replace(/\s/g, '');
         let filtered = '';

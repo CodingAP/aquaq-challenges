@@ -1,7 +1,6 @@
-const input = require('fs').readFileSync('./challenges/challenge2/input.txt').toString().trim();
 const common = require('../../scripts/common');
 
-module.exports = () => {
+module.exports = input => {
     let numbers = common.parseListToInt(input, ' ');
 
     for (let i = 0; i < numbers.length; i++) {

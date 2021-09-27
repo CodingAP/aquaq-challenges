@@ -1,7 +1,4 @@
-const input = require('fs').readFileSync('./challenges/challenge1/input.txt').toString().trim();
-const common = require('../../scripts/common');
-
-module.exports = () => {
+module.exports = input => {
     let hexRegex = /[0-9a-f]/;
     let hexString = '';
     for (let i = 0; i < input.length; i++) {
