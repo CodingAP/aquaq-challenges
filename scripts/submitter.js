@@ -20,15 +20,14 @@ let answersDB = new Database('./scripts/answers.db');
 
 let submitChallenge = async challenge => {
     let averageTime = 0;
-    let times = 10;
-
+    let firstAnswer = '';
+    let times = 1;
     for (let i = 0; i < times; i++) {
         let answers = runChallenge(challenge);
+        firstAnswer = answers.result;
         averageTime += answers.time;
     }
-
-    let answers = runChallenge(challenge);
-    answersDB.add(`c${challenge}`, parseInt(challenge), answers.result + '', (averageTime / times).toFixed(3));
+    answersDB.add(`c${challenge}`, parseInt(challenge), firstAnswer + '', (averageTime / times).toFixed(3));
 
     console.log(`Submitted challenge ${challenge}!`);
 }
