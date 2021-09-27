@@ -39,3 +39,4 @@ These are my solutions to the [AquaQ Challenges](https://challenges.aquaq.co.uk/
 | [Challenge 32](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge32)| 616✔ (72.352 ms) |
 | [Challenge 33](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge33)| Not finished❌ |
 | [Challenge 34](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge34)| Not finished❌ |
+| [Challenge 35](https://github.com/CodingAP/aquaq-challenges/tree/main/challenges/challenge35)| nonsense✔ (96.353 ms) |

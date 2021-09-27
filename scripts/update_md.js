@@ -10,7 +10,7 @@ let updateMD = async () => {
     let answersDB = new Database('./scripts/answers.db');
 
     let table = '';
-    for (let challenge = 0; challenge <= 34; challenge++) {
+    for (let challenge = 0; challenge <= 35; challenge++) {
         let data = null;
         common.objectForEach(answersDB.entries, (key, value) => {
             if (value[0] == challenge) data = value;
