@@ -105,3 +105,6 @@ dist
 
 # my settings file
 settings.json
+
+# all input files
+**/input.txt
