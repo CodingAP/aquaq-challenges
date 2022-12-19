@@ -1,18 +1,16 @@
 {
-  "name": "aquaq-challenges",
-  "version": "1.0.0",
-  "description": "It's like Advent of Code, but British",
-  "main": "index.js",
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "node-fetch": "^2.6.1",
-    "node-html-parser": "^2.0.0",
-    "turndown": "^7.0.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "aquaq-challenge-manager",
+    "version": "2.0.0",
+    "description": "Manager for AquaQ Challenges",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "CodingAP",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "js-combinatorics": "^2.1.1",
+        "node-fetch": "^3.3.0"
+    }
 }
