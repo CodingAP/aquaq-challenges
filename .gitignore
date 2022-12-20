@@ -108,3 +108,7 @@ settings.json
 
 # all input files
 **/input.txt
+
+# puzzle getting tools
+puzzles
+other
