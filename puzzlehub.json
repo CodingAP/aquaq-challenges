@@ -1,0 +1,17 @@
+{
+    "id": "aquaq",
+    "name": "AquaQ Challenges",
+    "provider": "aquaq",
+    "repository": "https://github.com/CodingAP/aquaq-challenges",
+    "layout": {
+        "puzzle": "challenges/challenge{puzzle:2}",
+        "solution": "solution.js",
+        "input": "input.txt"
+    },
+    "runner": {
+        "kind": "module",
+        "exports": "solution"
+    },
+    "template": "template.js",
+    "data": "hub.db"
+}
