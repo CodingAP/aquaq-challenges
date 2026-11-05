@@ -23,6 +23,7 @@ const factors = (number: number): number[] => {
  * the code of the challenge
  */
 const solution = async (input: string) => {
+    input = input.trim();
     let sum = 0;
     const inputFactors = factors(parseInt(input));
     for (let i = 1; i <= parseInt(input); i++) {

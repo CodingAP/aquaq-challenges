@@ -12,7 +12,7 @@
  * the code of the challenge
  */
 const solution = async (input: string) => {
-    let numbers = input.split(' ').map(num => parseInt(num));
+    let numbers = input.trim().split(' ').map(num => parseInt(num));
 
     for (let i = 0; i < numbers.length; i++) {
         const index = numbers.indexOf(numbers[i]);

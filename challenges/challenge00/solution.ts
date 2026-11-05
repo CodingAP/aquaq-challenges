@@ -12,6 +12,6 @@
  * the code of the challenge
  */
 const solution = async (input: string) =>
-    input.split('\n').map(line => line.split(' ')).reduce((string, [key, times]) => string + [' ', '', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz'][parseInt(key)][parseInt(times) - 1], '');
+    input.trim().split('\n').map(line => line.split(' ')).reduce((string, [key, times]) => string + [' ', '', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz'][parseInt(key)][parseInt(times) - 1], '');
 
 export { solution };

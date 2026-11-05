@@ -23,7 +23,7 @@ const getAllPossible = (indices: number[], callback: (args: number[]) => void, a
  * the code of the challenge
  */
 const solution = async (input: string) => {
-    const tokens = input.split(' ');
+    const tokens = input.trim().split(' ');
     const amount = parseInt(tokens[0]);
     const number = parseInt(tokens[5]);
     let total = 0;

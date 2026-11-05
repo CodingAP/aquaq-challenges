@@ -12,6 +12,7 @@
  * the code of the challenge
  */
 const solution = async (input: string) => {
+    input = input.trim();
     const grid = [
         [' ', ' ', '#', '#', ' ', ' '],
         [' ', '#', '#', '#', '#', ' '],
