@@ -5,13 +5,13 @@
     "repository": "https://github.com/CodingAP/aquaq-challenges",
     "layout": {
         "puzzle": "challenges/challenge{puzzle:2}",
-        "solution": "solution.js",
+        "solution": "solution.ts",
         "input": "input.txt"
     },
     "runner": {
         "kind": "module",
         "exports": "solution"
     },
-    "template": "template.js",
+    "template": "template.ts",
     "data": "hub.db"
 }

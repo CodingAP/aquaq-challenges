@@ -1,12 +1,12 @@
 # AquaQ Challenges
 
-These are my solutions to the [AquaQ Challenges](https://challenges.aquaq.co.uk/), in JavaScript.
+These are my solutions to the [AquaQ Challenges](https://challenges.aquaq.co.uk/), in TypeScript.
 
 ```
-challenges/challengeNN/   solution.js, README.md (the answer)
+challenges/challengeNN/   solution.ts, README.md (the answer)
 puzzlehub.json            tells the puzzle hub how this repository is laid out
 hub.db                    answers and run history (sqlite)
-template.js               what a new solution starts from
+template.ts               what a new solution starts from
 ```
 
 Every solution exports one (async) `solution` function that takes the challenge input as a string and returns the answer. Only the challenges I have worked on have a folder.
